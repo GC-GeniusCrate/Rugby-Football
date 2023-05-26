@@ -19,12 +19,8 @@ public class TileSpawner : MonoBehaviour
     [Header("Theme:- ")]
     public ThemeData mainTheme;
 
-    [Space(10)]
-    [Header("Tutorial:- ")]
-    [SerializeField] ThemeData tutorialData;
 
 
-    private bool mTutorial => GameManager.Instance.mTutorial;
 
     private void OnEnable()
     {
@@ -46,8 +42,7 @@ public class TileSpawner : MonoBehaviour
     }
     private void Start()
     {
-        if (mTutorial) _CurrentThemeData = tutorialData;
-        else _CurrentThemeData = mainTheme;
+        _CurrentThemeData = mainTheme;
     }
     private void Update()
     {

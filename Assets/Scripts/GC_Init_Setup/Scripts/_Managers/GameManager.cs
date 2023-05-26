@@ -27,17 +27,6 @@ namespace GeniusCrate.Utility
             }
         }
 
-        public bool mTutorial
-        {
-            get
-            {
-                return PlayerPrefs.GetInt("IsInTutorial", 0) == 0;
-            }
-            set
-            {
-                PlayerPrefs.SetInt("IsInTutorial", value ? 0 : 1);
-            }
-        }
 
         public string mSelectedCharacterKey
         {

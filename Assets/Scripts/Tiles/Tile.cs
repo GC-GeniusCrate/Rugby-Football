@@ -31,8 +31,6 @@ public class Tile : MonoBehaviour
 
     private void Start()
     {
-        if (GameManager.Instance.mTutorial) { TutSpawntime = 0.01f;}
-        else { TutSpawntime = 0.1f;}
         if (Random.value > .25)
         {
             Vector3 _spawnPos = GetRandomLane();
@@ -65,35 +63,8 @@ public class Tile : MonoBehaviour
             if (Obstricle.Count > 0)
             {
                 GameObject obstricle;
-                if (GameManager.Instance.mTutorial)
-                {
-                    if (i > 3) return;
-                    //tileLength += 5;
-                    _spawnPos.z = tileLength;
-                    obstricle = Instantiate(Obstricle[i], this.transform);
-                    switch (i)
-                    {
-                        case 0:
-                            _spawnPos.x = 0;
-                            break;
-                        case 1:
-                            _spawnPos.x = 2f;
-                            break;
-                        case 2:
-                            _spawnPos.x = 0;
-                            break;
-                        case 3:
-                            _spawnPos.x = 0f;
-                            break;
-                        default:
-                            break;
-                    }
-                   
-                }
-                else
-                {
+
                     obstricle = Instantiate(Obstricle[Random.Range(0, Obstricle.Count)], this.transform);
-                }
 
                 obstricle.GetComponent<Obstricle>().PlayerPivot = PlayerPivot;
                 obstricle.transform.localPosition = _spawnPos + new Vector3(0, .2f, 0);

@@ -39,10 +39,6 @@ public class CharacterController : MonoBehaviour
     public ParticleSystem onPowerUpParticle;
     public ParticleSystem destroyParticle;
 
-    bool mTutorial => GameManager.Instance.mTutorial;
-
-    int tutorialState = 0;
-    int tutorialSuccessCount = 0;
 
     public static Action ChangeInTutorialState;
     public static Action<bool, string> ShowTutorialUI;
@@ -58,8 +54,11 @@ public class CharacterController : MonoBehaviour
     }
     void Update()
     {
+       // Debug.Log("Test");
         transform.localPosition = Vector3.zero;
         if (GameManager.Instance.PauseGame) return;
+        Debug.Log("Test");
+
         Vector3 verticalTargetPosition = m_TargetPosition;
 
         transform.parent.localPosition = Vector3.MoveTowards(transform.parent.localPosition, verticalTargetPosition, laneChangeSpeed * Time.deltaTime);
@@ -67,9 +66,8 @@ public class CharacterController : MonoBehaviour
 
         GameManager.Instance._Score = (int)PlayerPivot.position.z * 10;
         GameManager.Instance.distance = PlayerPivot.position.z;
-        Tutorial();
         if (!m_IsPlayeralive) return;
-        if (GameManager.Instance.isGameStarted )
+        if (GameManager.Instance.isGameStarted)
             PlayerPivot.Translate(Vector3.forward * mPlayerspeed * Time.deltaTime);
 
 
@@ -155,68 +153,8 @@ public class CharacterController : MonoBehaviour
 #endif
         #endregion
     }
-    void Tutorial()
-    {
-        if (mTutorial && tutorialSuccessCount == 0)
-        {
-            RaycastHit hit;
-            if (Physics.Raycast(transform.position - new Vector3(0, -.1f, 0), transform.TransformDirection(Vector3.forward), out hit, 2.5f, ObstricleLayerMask))
-            {
-
-                if (tutorialState == 0)
-                {
-                    tutorialState = 1;
-                }
-                switch (tutorialState)
-                {
-                    case 1:
-                        if (hit.collider.gameObject.name == "Right(Clone)")
-                        {
-                            inputAccessState = 1;
-                            ShowTutorialUI?.Invoke(true, "Move Right");
-                            GameManager.Instance.isGameStarted = false;
-                        }
-                        break;
-                    case 2:
-                        if (hit.collider.gameObject.name == "Left(Clone)")
-                        {
-                            ShowTutorialUI?.Invoke(true, "Move Left");
-                            GameManager.Instance.isGameStarted = false;
-                            inputAccessState = 2;
-
-                        }
-                        break;
-                    case 3:
-                        if (hit.collider.gameObject.name == "Jump(Clone)")
-                        {
-                            ShowTutorialUI?.Invoke(true, "Move Up");
-                            GameManager.Instance.isGameStarted = false;
-                            inputAccessState = 3;
-
-
-                        }
-                        break;
-                    case 4:
-                        if (hit.collider.gameObject.name == "Slide(Clone)")
-                        {
-                            ShowTutorialUI?.Invoke(true, "Move Down");
-                            GameManager.Instance.isGameStarted = false;
-                            inputAccessState = 4;
-
-
-                        }
-
-                        break;
-                    default:
-                        break;
-                }
-            }
-        }
-    }
     private void Jump()
     {
-        if ((mTutorial && inputAccessState != 3) || (!mTutorial && !GameManager.Instance.isGameStarted)) return;
-
         if (m_IsJumping) return;
         mCharacterAnimator.SetTrigger("Jump");
        // mCharaterRigidbody.AddForce(Vector3.up * mJumpForce);
@@ -224,20 +162,15 @@ public class CharacterController : MonoBehaviour
         MissionManager.OnMissionTrigger?.Invoke(2, 1);
         AchievementManager.OnAchevement?.Invoke(0, 1);
 
-        TutorialCheck(3);
-
 
     }
 
     private void Slide()
     {
-        if (mTutorial && inputAccessState != 4 || (!mTutorial && !GameManager.Instance.isGameStarted)) return;
-
         mCharacterAnimator.SetTrigger("Slide");
         MissionManager.OnMissionTrigger?.Invoke(4, 1);
         AchievementManager.OnAchevement?.Invoke(6, 1);
 
-        TutorialCheck(4);
 
 
     }
@@ -249,11 +182,6 @@ public class CharacterController : MonoBehaviour
 
     private void ChangeLane(int direction)
     {
-
-        Debug.Log("Got Here " + inputAccessState);
-        if (mTutorial && inputAccessState != 1 && direction == -1 || (!mTutorial && !GameManager.Instance.isGameStarted)) return;
-        if (mTutorial && inputAccessState != 2 && direction == 1 || (!mTutorial && !GameManager.Instance.isGameStarted)) return;
-
         int targetLane = m_CurrentLane + direction;
 
         if (targetLane < 0 || targetLane > 2)
@@ -261,25 +189,9 @@ public class CharacterController : MonoBehaviour
         m_CurrentLane = targetLane;
         m_TargetPosition = new Vector3((m_CurrentLane - 1) * laneOffset, 0, 0);
 
-        TutorialCheck(direction == -1 ? 1 : 2);
 
     }
 
-    void TutorialCheck(int state)
-    {
-        if (tutorialState == state)
-        {
-            tutorialState++;
-            inputAccessState = 0;
-            ShowTutorialUI?.Invoke(false, "Move Down");
-            GameManager.Instance.isGameStarted = true;
-            ChangeInTutorialState?.Invoke();
-            if (tutorialState > 4)
-            {
-                GameManager.Instance.mTutorial = false;
-            }
-        }
-    }
     public void StartGame()
     {
         m_IsPlayeralive = true;
