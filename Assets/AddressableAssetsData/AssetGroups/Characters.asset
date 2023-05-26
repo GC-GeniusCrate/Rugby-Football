@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: 
+  m_GroupName: Characters
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b0462bcde31257b4ea3fed75da4f0a13
+  m_SerializeEntries:
+  - m_GUID: 38fe6b14d921852428b3d769d2e588f7
+    m_Address: ZombieModel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+  - m_GUID: f40a3f2e15551824287b21d003230093
+    m_Address: Man
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5da32132f212f4046ac80b316a0adf6d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0c4ec655979c6f346b502bf9eb7ca24f, type: 2}
+    - {fileID: 11400000, guid: 44ee7057ba9b7174e9e0778874e29ee4, type: 2}

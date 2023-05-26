@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c56c7a1aebf70724ba791341f6d1ee31, type: 3}
+  m_Name: SuperSerferAgent
+  m_EditorClassIdentifier: 
+  mQuestID: 1
+  mQuestTitle: SuperSerferAgent
+  mQuestDescription: bla bla bla
+  currentLevel: 0
+  achievementLevels:
+  - icon: {fileID: -7707917330291737424, guid: ea327ed6a83769a46965de09a674ede1, type: 3}
+    countToAchive: 10
+    reward:
+      rewardName: happy
+      reward: 233
+      icon: {fileID: 649223268058989734, guid: ea327ed6a83769a46965de09a674ede1, type: 3}
+    countAchieved: 0
+    isCompleted: 0
+  - icon: {fileID: -9112927591779324202, guid: ea327ed6a83769a46965de09a674ede1, type: 3}
+    countToAchive: 30
+    reward:
+      rewardName: sda
+      reward: 33
+      icon: {fileID: -7707917330291737424, guid: ea327ed6a83769a46965de09a674ede1, type: 3}
+    countAchieved: 30
+    isCompleted: 1
+  - icon: {fileID: -3167664012565464253, guid: ea327ed6a83769a46965de09a674ede1, type: 3}
+    countToAchive: 50
+    reward:
+      rewardName: 
+      reward: 4545
+      icon: {fileID: 2527607607167286074, guid: ea327ed6a83769a46965de09a674ede1, type: 3}
+    countAchieved: 50
+    isCompleted: 1

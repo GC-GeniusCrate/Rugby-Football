@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 8ca9e6f01dd0d4896bec473d7957b4d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6936760984310482002
+    second: Button-on press Icons_0
+  - first:
+      213: -1837714125760078764
+    second: Button-on press Icons_1
+  - first:
+      213: 8975220017460707668
+    second: Button-on press Icons_2
+  - first:
+      213: 4970229134468887925
+    second: Button-on press Icons_3
+  - first:
+      213: 8867934721662506457
+    second: Button-on press Icons_4
+  - first:
+      213: 8900355959706846487
+    second: Button-on press Icons_5
+  - first:
+      213: -1835760925081720611
+    second: Button-on press Icons_6
+  - first:
+      213: -2403162606561118442
+    second: Button-on press Icons_7
+  - first:
+      213: 1734608224640523341
+    second: Button-on press Icons_8
+  - first:
+      213: 9066581234283412259
+    second: Button-on press Icons_9
+  - first:
+      213: 7760040009826850836
+    second: Button-on press Icons_10
+  - first:
+      213: -5283884256306944108
+    second: Button-on press Icons_11
+  - first:
+      213: 3000987226583806575
+    second: Button-on press Icons_12
+  - first:
+      213: 45530677902711234
+    second: Button-on press Icons_13
+  - first:
+      213: 1768962204506298549
+    second: Button-on press Icons_14
+  - first:
+      213: 1275218941623644523
+    second: Button-on press Icons_15
+  - first:
+      213: -4750646506087145092
+    second: Button-on press Icons_16
+  - first:
+      213: 9090533625717543023
+    second: Button-on press Icons_17
+  - first:
+      213: -8121328501431227642
+    second: Button-on press Icons_18
+  - first:
+      213: -2361158293440495296
+    second: Button-on press Icons_19
+  - first:
+      213: -2075019967636108975
+    second: Button-on press Icons_20
+  - first:
+      213: 429153685698958201
+    second: Button-on press Icons_21
+  - first:
+      213: 3611497505429820821
+    second: Button-on press Icons_22
+  - first:
+      213: 5736069455287733142
+    second: Button-on press Icons_23
+  - first:
+      213: 3043851001127690275
+    second: Button-on press Icons_24
+  - first:
+      213: -4377511826600106908
+    second: Button-on press Icons_25
+  - first:
+      213: 4346238185897058270
+    second: Button-on press Icons_26
+  - first:
+      213: 3927757114333749991
+    second: Button-on press Icons_27
+  - first:
+      213: 7264455697489993330
+    second: Button-on press Icons_28
+  - first:
+      213: -1130095678736438626
+    second: Button-on press Icons_29
+  - first:
+      213: 9191666528635741022
+    second: Button-on press Icons_30
+  - first:
+      213: 7068756725163413080
+    second: Button-on press Icons_31
+  - first:
+      213: 3038399366507705390
+    second: Button-on press Icons_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Button-on press Icons_0
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 3006
+        width: 417
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2548d99dc53544060800000000000000
+      internalID: 6936760984310482002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_1
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 3003
+        width: 380
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c5a5f3db02f76e0800000000000000
+      internalID: -1837714125760078764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_2
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 3117
+        width: 2169
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45188b99d036e8c70800000000000000
+      internalID: 8975220017460707668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_3
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 2779
+        width: 1041
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575b05c701dc9f440800000000000000
+      internalID: 4970229134468887925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_4
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 3035
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5db0025ab311b70800000000000000
+      internalID: 8867934721662506457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1366
+        width: 1060
+        height: 1516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7158bd8d69a648b70800000000000000
+      internalID: 8900355959706846487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_6
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 2825
+        width: 2080
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd826f73a211686e0800000000000000
+      internalID: -1835760925081720611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_7
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 2791
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6173c62875046aed0800000000000000
+      internalID: -2403162606561118442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_8
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 2791
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c5b2e6df0921810800000000000000
+      internalID: 1734608224640523341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_9
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 2671
+        width: 313
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b7fa48897f2dd70800000000000000
+      internalID: 9066581234283412259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_10
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 2668
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4185c84464331bb60800000000000000
+      internalID: 7760040009826850836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_11
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 2669
+        width: 314
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497ab8c934fdba6b0800000000000000
+      internalID: -5283884256306944108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_12
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 2668
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6233009bf5a5a920800000000000000
+      internalID: 3000987226583806575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_13
+      rect:
+        serializedVersion: 2
+        x: 3076
+        y: 1848
+        width: 1297
+        height: 878
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c916ca09e1c1a000800000000000000
+      internalID: 45530677902711234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_14
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 2434
+        width: 140
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b890bca0cd9c8810800000000000000
+      internalID: 1768962204506298549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_15
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 2434
+        width: 141
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61b35afedc72b110800000000000000
+      internalID: 1275218941623644523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_16
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 2432
+        width: 143
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71a9373c20521eb0800000000000000
+      internalID: -4750646506087145092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_17
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 2432
+        width: 141
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6053ab3b20182e70800000000000000
+      internalID: 9090533625717543023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_18
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 2412
+        width: 183
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bafefa1ce3b4f80800000000000000
+      internalID: -8121328501431227642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_19
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 2221
+        width: 335
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0410305ca0b7b3fd0800000000000000
+      internalID: -2361158293440495296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_20
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 2182
+        width: 141
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1590537555c0433e0800000000000000
+      internalID: -2075019967636108975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_21
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 2184
+        width: 141
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973d22ed009a4f500800000000000000
+      internalID: 429153685698958201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_22
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 2190
+        width: 141
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5959a5eb8dd9e1230800000000000000
+      internalID: 3611497505429820821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_23
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 2190
+        width: 142
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bc46157cc9a9f40800000000000000
+      internalID: 5736069455287733142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_24
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 2173
+        width: 183
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320ee67cb5eed3a20800000000000000
+      internalID: 3043851001127690275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_25
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1294
+        width: 693
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464ed6fcf24ff33c0800000000000000
+      internalID: -4377511826600106908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_26
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 1294
+        width: 693
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfd1ab4a90f05c30800000000000000
+      internalID: 4346238185897058270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_27
+      rect:
+        serializedVersion: 2
+        x: 3058
+        y: 1287
+        width: 1283
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e260eb0942328630800000000000000
+      internalID: 3927757114333749991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_28
+      rect:
+        serializedVersion: 2
+        x: 4099
+        y: 1265
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e1477d7f780d460800000000000000
+      internalID: 7264455697489993330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_29
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 75
+        width: 1060
+        height: 1116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ae5bab7f71150f0800000000000000
+      internalID: -1130095678736438626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_30
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 76
+        width: 1059
+        height: 1115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e536e2d120c5f8f70800000000000000
+      internalID: 9191666528635741022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_31
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 189
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ec4072ac4491260800000000000000
+      internalID: 7068756725163413080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button-on press Icons_32
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 256
+        width: 877
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24b67e20209a2a20800000000000000
+      internalID: 3038399366507705390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 67722adc88d894879a3aea7bf9b37f76
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

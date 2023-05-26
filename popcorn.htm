@@ -1,0 +1,444 @@
+<html><head><title>popcorn-engine logfile</title>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<style>body
+{
+   padding-top: 44px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   background: #bbbbbb;
+   margin: 0px;
+   color: #000000;
+   font-family: Consolas, Courier;
+   font-size: 10pt;
+}
+.header2
+{
+   font-size: 80px;
+   left: 5px;
+   color: #408ed9;
+   position: absolute;
+   top: -30px
+}
+.header
+{
+   left: 0px;
+   overflow: hidden;
+   width: 100%;
+   color: #ffffff;
+   font-family: Verdana, Arial;
+   position: absolute;
+   top: 0px;
+   height: 44px;
+   background-color: #1b79d3
+}
+.pagetitle
+{
+   font-size: 22px;
+   z-index: 100;
+   left: 5px;
+   color: #ffffff;
+   position: absolute;
+   top: 14px;
+}
+.copyright
+{
+   font-size: 10px;
+   z-index: 60;
+   left: -8px;
+   width: 100%;
+   color: #68a6e1;
+   position: absolute;
+   top: 1px;
+   text-align: right;
+   text-decoration: none;
+}
+.build
+{
+   font-size: 12px;
+   color: #eeeeee;
+   text-decoration: none;
+}
+a.header1:link
+{
+   font-size: 30px;
+   z-index: 50;
+   left: -8px;
+   width: 100%;
+   color: #5299dd;
+   position: absolute;
+   top: 6px;
+   text-align: right;
+   text-decoration: none;
+}
+a.header1:visited
+{
+   font-size: 30px;
+   z-index: 50;
+   left: -8px;
+   width: 100%;
+   color: #5299dd;
+   position: absolute;
+   top: 6px;
+   text-align: right;
+   text-decoration: none;
+}
+a.header1:hover
+{
+   font-size: 30px;
+   z-index: 50;
+   left: -8px;
+   width: 100%;
+   color: #68a6e1;
+   position: absolute;
+   top: 6px;
+   text-align: right;
+   text-decoration: none;
+}
+.log_caller { color: #666666; }
+.dll { color: #800070; }
+.M   { color: #000000; background-color: #DDDDDD; white-space: pre; }
+.W   { color: #000000; background-color: #FFAA33; white-space: pre; }
+.E   { color: #FFFFFF; background-color: #DD1100; white-space: pre; }
+.EC  { color: #FFFFFF; background-color: #DD0000; white-space: pre; }
+.EI  { color: #FFFFFF; background-color: #EE0000; white-space: pre; }
+.EF  { color: #FFFFFF; background-color: #FF0000; white-space: pre; }
+</style>
+</head>
+<body>
+<div class=header id=header>
+    <a class=header1 id=header1 href="http://www.popcornfx.com/">www.popcornfx.com</a>
+    <div class=copyright id=copyright>Copyright (c) Persistant Studios 2010-2015</div>
+    <div class=header2 id=header2>PopcornFX</div>
+    <div class=pagetitle id=pagetitle>PopcornFX Unity plugin logfile. <font class=build>build 1.8.2.26346, Tue Sep 8 12:47:42 2015 +0200</font></i></div>
+</div><div class=M><center>... STARTUP ...</center></div>
+<div class=M>[BOOT]> License keycode: "DiscoveryPlugin-{169612C6056451B3}"</div>
+<div class=M>[BOOT]> Popcorn runtime build config: .... RELEASE</div>
+<div class=M>[BOOT]> Has debug asserts: .................... NO</div>
+<div class=M>[BOOT]> Has release asserts: ................. YES</div>
+<div class=M>[BOOT]> Has anonymous asserts: ................ NO</div>
+<div class=M>[BOOT]> Has containers monitoring: ............ NO</div>
+<div class=M>[BOOT]> Has iterators debug checks: ........... NO</div>
+<div class=M>[BOOT]> Mem debug level: ....................... 0</div>
+<div class=M>[BOOT]> Has default mem allocators: .......... YES</div>
+<div class=M>[BOOT]> |</div>
+<div class=M>[BOOT]> | ... BOOTING HH_KERNEL ...</div>
+<div class=M>[BOOT]> [KR_CALLSTACK             ]:Startup       942 usec         0 bytes      0 KbTotal</div>
+<div class=M>[BOOT]> [KR_PERFMONITOR           ]:Startup       280 usec        80 bytes      0 KbTotal</div>
+<div class=M>[BOOT]> [KR_MEM                   ]:Startup         0 usec        72 bytes      0 KbTotal</div>
+<div class=M>[BOOT]> [KR_CONTAINERS            ]:Startup         2 usec         0 bytes      0 KbTotal</div>
+<div class=M>[BOOT]> [KR_ASSERT                ]:Startup         0 usec         0 bytes      0 KbTotal</div>
+<div class=M>[BOOT]> [KR_BUFFER                ]:Startup         0 usec         0 bytes      0 KbTotal</div>
+<div class=M>[BOOT]> [KR_STRING                ]:Startup         2 usec      2048 bytes      3 KbTotal</div>
+<div class=M>[BOOT]> [KR_RTTI                  ]:Startup         0 usec         0 bytes      3 KbTotal</div>
+<div class=M>[KR_THREADS]> Windows-7 group affinity functions are available. Thread scheduling will scale to more than 64 processors.</div>
+<div class=M>[BOOT]> [KR_THREADS               ]:Startup        24 usec         0 bytes      3 KbTotal</div>
+<div class=M>[BOOT]> [KR_THREAD_POOL           ]:Startup         0 usec         0 bytes      3 KbTotal</div>
+<div class=M>[KR_CAPS_CPU]> Multi-Core system, Multi-threaded cores</div>
+<div class=M>[KR_CAPS_CPU]>      Logical processors reported by OS : 8</div>
+<div class=M>[KR_CAPS_CPU]>      Visible logical processors        : 8</div>
+<div class=M>[KR_CAPS_CPU]>      Cores                             : 4</div>
+<div class=M>[KR_CAPS_CPU]>      Physical packages                 : 1</div>
+<div class=M>[KR_CAPS_CPU]> ---- Package 0 -------------------------</div>
+<div class=M>[KR_CAPS_CPU]>      Vendor                            : GenuineIntel</div>
+<div class=M>[KR_CAPS_CPU]>      CPU Name                          : "Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz"</div>
+<div class=M>[KR_CAPS_CPU]>      Frequency                         : 2400.0 MHz (2400.000 measured)</div>
+<div class=M>[KR_CAPS_CPU]>      Architecture                      : 64-bits</div>
+<div class=M>[KR_CAPS_CPU]>      MMX                               : YES</div>
+<div class=M>[KR_CAPS_CPU]>      SSE                               : YES</div>
+<div class=M>[KR_CAPS_CPU]>      SSE2                              : YES</div>
+<div class=M>[KR_CAPS_CPU]>      SSE3                              : YES</div>
+<div class=M>[KR_CAPS_CPU]>      SSSE3                             : YES</div>
+<div class=M>[KR_CAPS_CPU]>      SSE4.1                            : YES</div>
+<div class=M>[KR_CAPS_CPU]>      SSE4.2                            : YES</div>
+<div class=M>[KR_CAPS_CPU]>      AVX                               : YES</div>
+<div class=M>[KR_CAPS_CPU]>      F16C                              : YES</div>
+<div class=M>[KR_CAPS_CPU]>      FMA                               : YES</div>
+<div class=M>[KR_CAPS_CPU]>      POPCNT                            : YES</div>
+<div class=M>[KR_CAPS_CPU]>      BMI1                              : YES</div>
+<div class=M>[KR_CAPS_CPU]>      BMI2                              : YES</div>
+<div class=M>[KR_CAPS_CPU]>      x2APIC                            : YES</div>
+<div class=M>[KR_CAPS_CPU]>      HyperThreading                    : YES</div>
+<div class=M>[KR_CAPS_CPU]>      CPUID Leaves                      : 00000016-00000008</div>
+<div class=M>[KR_CAPS_CPU]>      CACHE TYPE                  SIZE         ASSOCIATIVITY  LINE-SIZE</div>
+<div class=M>[KR_CAPS_CPU]>         L1 Data cache              32 KB             8 ways   64-bytes</div>
+<div class=M>[KR_CAPS_CPU]>         L1 Instruction cache       32 KB             8 ways   64-bytes</div>
+<div class=M>[KR_CAPS_CPU]>         L2 Unified cache          256 KB             4 ways   64-bytes</div>
+<div class=M>[KR_CAPS_CPU]>         L3 Unified cache         8192 KB            16 ways   64-bytes</div>
+<div class=M>[KR_CAPS_CPU]>      PROCESSOR  APIC_ID  PACKAGE     CORE   THREAD    CACHES</div>
+<div class=M>[KR_CAPS_CPU]>              0     0000        0        0        0    L1D[0] L1I[0] L2[0] L3[0]</div>
+<div class=M>[KR_CAPS_CPU]>              1     0001        0        0        1    L1D[0] L1I[0] L2[0] L3[0]</div>
+<div class=M>[KR_CAPS_CPU]>              2     0002        0        1        0    L1D[1] L1I[1] L2[1] L3[0]</div>
+<div class=M>[KR_CAPS_CPU]>              3     0003        0        1        1    L1D[1] L1I[1] L2[1] L3[0]</div>
+<div class=M>[KR_CAPS_CPU]>              4     0004        0        2        0    L1D[2] L1I[2] L2[2] L3[0]</div>
+<div class=M>[KR_CAPS_CPU]>              5     0005        0        2        1    L1D[2] L1I[2] L2[2] L3[0]</div>
+<div class=M>[KR_CAPS_CPU]>              6     0006        0        3        0    L1D[3] L1I[3] L2[3] L3[0]</div>
+<div class=M>[KR_CAPS_CPU]>              7     0007        0        3        1    L1D[3] L1I[3] L2[3] L3[0]</div>
+<div class=M>[BOOT]> [KR_CAPS_CPU              ]:Startup     53486 usec      1128 bytes      4 KbTotal</div>
+<div class=M>[KR_CAPS_MEM]> Detecting memory:</div>
+<div class=M>[KR_CAPS_MEM]>      MEMORY        :          USED     AVAILABLE         TOTAL</div>
+<div class=M>[KR_CAPS_MEM]>      physical      :     7603.0 Mb      440.0 Mb     8044.0 Mb</div>
+<div class=M>[KR_CAPS_MEM]>      page file     :    13147.0 Mb     7184.0 Mb    20332.0 Mb</div>
+<div class=M>[KR_CAPS_MEM]>      virtual       :    17976.0 Mb 134199752.0 Mb 134217728.0 Mb</div>
+<div class=M>[KR_CAPS_MEM]>      Address range : 00007FFFFFFEFFFF - 0000000000010000</div>
+<div class=M>[BOOT]> [KR_CAPS_MEM              ]:Startup        39 usec        72 bytes      4 KbTotal</div>
+<div class=M>[BOOT]> [KR_PROFILER              ]:Startup       403 usec      3448 bytes      7 KbTotal</div>
+<div class=M>[BOOT]> [KR_CHECKSUM              ]:Startup         0 usec         0 bytes      7 KbTotal</div>
+<div class=M>[BOOT]> [KR_COMPRESSION           ]:Startup         0 usec         0 bytes      7 KbTotal</div>
+<div class=M>[BOOT]> [KR_FILE                  ]:Startup        18 usec         8 bytes      8 KbTotal</div>
+<div class=M>[BOOT]> [KR_PLUGINS               ]:Startup         0 usec        56 bytes      8 KbTotal</div>
+<div class=M>[BOOT]> [KR_SCHEDULER             ]:Startup      1817 usec     42752 bytes     49 KbTotal</div>
+<div class=M>[BOOT]> [KR_RESOURCES             ]:Startup         0 usec        80 bytes     50 KbTotal</div>
+<div class=M>[BOOT]> |</div>
+<div class=M>[BOOT]> | ... BOOTING KR_BASE_OBJECT ...</div>
+<div class=M>[BOOT]> [KR_BASE_OBJECT           ]:Startup        46 usec     17368 bytes     67 KbTotal</div>
+<div class=M>[BOOT]> |</div>
+<div class=M>[BOOT]> | ... BOOTING HH-EngineUtils ...</div>
+<div class=M>[BOOT]> [KR_RANDOM                ]:Startup        21 usec      5032 bytes     72 KbTotal</div>
+<div class=M>[BOOT]> [KR_TIMELINE              ]:Startup         1 usec         0 bytes     72 KbTotal</div>
+<div class=M>[BOOT]> [KR_ACTIONS               ]:Startup      2702 usec     14928 bytes     86 KbTotal</div>
+<div class=M>[BOOT]> [KR_CORE                  ]:Startup      1473 usec     10676 bytes     97 KbTotal</div>
+<div class=M>[BOOT]> [KR_SAMPLERS              ]:Startup       396 usec      6116 bytes    103 KbTotal</div>
+<div class=M>[BOOT]> [EU_SKELETON              ]:Startup        11 usec      2824 bytes    106 KbTotal</div>
+<div class=M>[BOOT]> |</div>
+<div class=M>[BOOT]> | ... BOOTING HH_COMPILER ...</div>
+<div class=M>[BOOT]> [HH_COMPILER              ]:Startup       676 usec     15704 bytes    121 KbTotal</div>
+<div class=M>[BOOT]> |</div>
+<div class=M>[BOOT]> | ... BOOTING HH_GEOMETRICS ...</div>
+<div class=M>[BOOT]> [GE_SKELETON              ]:Startup         0 usec         0 bytes    121 KbTotal</div>
+<div class=M>[BOOT]> [GE_MESH                  ]:Startup       190 usec      6132 bytes    127 KbTotal</div>
+<div class=M>[BOOT]> [GF_MESH_DEFORMERS        ]:Startup       306 usec     39308 bytes    166 KbTotal</div>
+<div class=M>[BOOT]> [GE_MESH_RESOURCE         ]:Startup         3 usec      4512 bytes    170 KbTotal</div>
+<div class=M>[BOOT]> [GE_MESH_KDTREE           ]:Startup         0 usec         0 bytes    170 KbTotal</div>
+<div class=M>[BOOT]> [GE_SHAPES                ]:Startup        55 usec      9376 bytes    179 KbTotal</div>
+<div class=M>[BOOT]> [GE_COLLIDERS             ]:Startup         0 usec         0 bytes    179 KbTotal</div>
+<div class=M>[BOOT]> [GE_BILLBOARDS            ]:Startup         0 usec         0 bytes    179 KbTotal</div>
+<div class=M>[BOOT]> [GE_RECTANGLE_LIST        ]:Startup         5 usec      4248 bytes    184 KbTotal</div>
+<div class=M>[BOOT]> |</div>
+<div class=M>[BOOT]> | ... BOOTING HH_IMAGING ...</div>
+<div class=M>[BOOT]> [IM_IMAGES                ]:Startup        18 usec      4344 bytes    188 KbTotal</div>
+<div class=M>[BOOT]> |</div>
+<div class=M>[BOOT]> | ... BOOTING HH_PARTICLES ...</div>
+<div class=M>[BOOT]> [HH_PARTICLES             ]:Startup      5416 usec    835492 bytes   1004 KbTotal</div>
+<div class=M>[BOOT]> [HH-CompilerBackend_CPU_Emulation]:Startup         6 usec      8704 bytes   1008 KbTotal</div>
+<div class=M>[KR_PLUGINS]> Registering module "CompilerBackend_CPU_Emulation" to handler "hh_compiler".</div>
+<div class=M>[KR_PLUGINS]> Registering module "PopcornFX-Image codec dds" to handler "im_codec".</div>
+<div class=M>[KR_PLUGINS]> Registering module "PopcornFX-Image codec png" to handler "im_codec".</div>
+<div class=M>[KR_PLUGINS]> Registering module "PopcornFX-Image codec targa" to handler "im_codec".</div>
+<div class=M>[???]> Startup PKFX</div>
+<div class=M>[???]> Added D:/Unity-Project-Files/GC_Projects/Git-Repo/Running-of-Bulls---Encierro/Assets/StreamingAssets/PackFx for watching.</div>
+<div class=M>[???]> Exploring pack D:/Unity-Project-Files/GC_Projects/Git-Repo/Running-of-Bulls---Encierro/Assets/StreamingAssets/PackFx...</div>
+<div class=M>[???]>   -> Particles/Acid.pkfx : Acid</div>
+<div class=M>[???]>   -> Particles/Blast.pkfx : Blast</div>
+<div class=M>[???]>   -> Particles/Blood.pkfx : Blood</div>
+<div class=M>[???]>   -> Particles/Buff_Debuff.pkfx : Buff_Debuff</div>
+<div class=M>[???]>   -> Particles/Candle.pkfx : Candle</div>
+<div class=M>[???]>   -> Particles/Cauldron.pkfx : Cauldron</div>
+<div class=M>[???]>   -> Particles/Cloud.pkfx : Cloud</div>
+<div class=M>[???]>   -> Particles/Confeti.pkfx : Confeti</div>
+<div class=M>[???]>   -> Particles/DirtProjection.pkfx : DirtProjection</div>
+<div class=M>[???]>   -> Particles/DustProjection.pkfx : DustProjection</div>
+<div class=M>[???]>   -> Particles/Explosion.pkfx : Explosion</div>
+<div class=M>[???]>   -> Particles/Fight.pkfx : Fight</div>
+<div class=M>[???]>   -> Particles/Fire.pkfx : Fire</div>
+<div class=M>[???]>   -> Particles/FlameThrower.pkfx : FlameThrower</div>
+<div class=M>[???]>   -> Particles/FlyingAround.pkfx : FlyingAround</div>
+<div class=M>[???]>   -> Particles/Fountain.pkfx : Fountain</div>
+<div class=M>[???]>   -> Particles/Gas.pkfx : Gas</div>
+<div class=M>[???]>   -> Particles/GroundHit.pkfx : GroundHit</div>
+<div class=M>[???]>   -> Particles/Impact.pkfx : Impact</div>
+<div class=M>[???]>   -> Particles/Laser.pkfx : Laser</div>
+<div class=M>[???]>   -> Particles/LightningStrike.pkfx : LightningStrike</div>
+<div class=M>[???]>   -> Particles/MagicSpell.pkfx : MagicSpell</div>
+<div class=M>[???]>   -> Particles/MuzzleFlash.pkfx : MuzzleFlash</div>
+<div class=M>[???]>   -> Particles/Smoke.pkfx : Smoke</div>
+<div class=M>[???]>   -> Particles/Spark.pkfx : Spark</div>
+<div class=M>[???]>   -> Particles/Splat.pkfx : Splat</div>
+<div class=M>[???]>   -> Particles/StepSmoke.pkfx : StepSmoke</div>
+<div class=M>[???]>   -> Particles/Text.pkfx : Text</div>
+<div class=M>[???]>   -> Particles/Tornado.pkfx : Tornado</div>
+<div class=M>[???]>   -> Particles/Weather.pkfx : Weather</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Acid.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Acid.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Acid.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Acid.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Acid.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Acid.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Blast.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Blast.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Blast.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Blast.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Blast.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Blast.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Blast.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Blood.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Blood.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Blood.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Blood.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Blood.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Blood.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Blood.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Blood.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Buff_Debuff.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Buff_Debuff.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Buff_Debuff.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Buff_Debuff.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Buff_Debuff.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Buff_Debuff.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Candle.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Candle.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Candle.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Candle.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Candle.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Candle.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Candle.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Cauldron.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Cauldron.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Cauldron.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Cauldron.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Cauldron.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Cauldron.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Cauldron.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Cloud.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Cloud.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Cloud.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Cloud.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Cloud.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Cloud.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Confeti.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Confeti.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Confeti.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Confeti.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Confeti.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Confeti.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/DirtProjection.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/DirtProjection.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/DirtProjection.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/DirtProjection.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/DirtProjection.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/DirtProjection.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/DirtProjection.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/DustProjection.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/DustProjection.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/DustProjection.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/DustProjection.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/DustProjection.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/DustProjection.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fight.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fight.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fight.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fight.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fight.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fight.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fight.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fire.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fire.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fire.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fire.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fire.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fire.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/FlameThrower.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/FlameThrower.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/FlameThrower.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/FlameThrower.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/FlameThrower.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/FlameThrower.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/FlyingAround.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fountain.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fountain.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fountain.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fountain.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fountain.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fountain.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Fountain.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Gas.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Gas.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Gas.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Gas.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Gas.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Gas.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Gas.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/GroundHit.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/GroundHit.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/GroundHit.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/GroundHit.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/GroundHit.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/GroundHit.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/GroundHit.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Impact.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Impact.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Impact.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Impact.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Impact.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Impact.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Impact.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Laser.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Laser.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Laser.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Laser.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Laser.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Laser.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/LightningStrike.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/MagicSpell.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=M>[???]> ##### PDF 2D BUILD ################</div>
+<div class=M>[???]> ## size              : 1024 x 1024</div>
+<div class=M>[???]> ## min treshold      : 0.000e+000</div>
+<div class=M>[???]> ## remap discrepancy : 1.000e+000</div>
+<div class=M>[???]> ##### 14.588 ms ######################</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/MuzzleFlash.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/MuzzleFlash.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/MuzzleFlash.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/MuzzleFlash.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/MuzzleFlash.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/MuzzleFlash.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/MuzzleFlash.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/MuzzleFlash.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Smoke.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Smoke.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Smoke.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Smoke.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Smoke.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Smoke.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Spark.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Spark.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Spark.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Spark.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Spark.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Spark.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Splat.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Splat.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Splat.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Splat.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Splat.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Splat.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Splat.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/StepSmoke.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/StepSmoke.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/StepSmoke.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/StepSmoke.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/StepSmoke.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/StepSmoke.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/StepSmoke.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Text.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Text.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Text.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Text.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Text.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Text.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Text.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Tornado.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Tornado.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Tornado.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Tornado.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Tornado.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Tornado.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Tornado.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Weather.pkfx": skipping unknown HBO handler: "CNEdEditorParticle_Data"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Weather.pkfx": skipping unknown HBO handler: "CEntityWithTransformsFactory"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Weather.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_List"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Weather.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Brush"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Weather.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Model3D"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Weather.pkfx": skipping unknown HBO handler: "CNEdEditorBackdrop_Light"</div>
+<div class=W>[KR_BASE_OBJECT]> "Particles/Weather.pkfx": skipping unknown HBO handler: "CNEdEditorLightFactory"</div>
+<div class=E>[???]> Socket: Disconnected...</div>
+<div class=M><center>... SHUTDOWN ...</center></div></body></html>

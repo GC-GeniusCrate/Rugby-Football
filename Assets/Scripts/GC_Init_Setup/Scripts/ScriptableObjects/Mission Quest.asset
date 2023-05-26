@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ecd11b9e00e238488613d13af003a6c, type: 3}
+  m_Name: Mission Quest
+  m_EditorClassIdentifier: 
+  mQuestID: 0
+  mQuestTitle: Happy Happy
+  mQuestDescription: Bla Bla Bla
+  icon: {fileID: -2574449355943416012, guid: ea327ed6a83769a46965de09a674ede1, type: 3}
+  countToAchive: 10
+  countAchieved: 0
+  isCompleted: 0
+  reward:
+    rewardName: 
+    reward: 0
+    icon: {fileID: 0}
+  IsRewardGranded: 0

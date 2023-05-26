@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UIText_es-ES
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es-ES
+  m_SharedData: {fileID: 11400000, guid: ec0cf46632b0b2a45b52082ec524647a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 33196912640
+    m_Localized: Ajustes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2501075054592
+    m_Localized: conectar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45065064984576
+    m_Localized: Jugar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45851123691520
+    m_Localized: Tienda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46432923987968
+    m_Localized: "Misi\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46910772654080
+    m_Localized: "M\xFAsica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47467151273984
+    m_Localized: Sonar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48016563154944
+    m_Localized: "Notificaci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48451751555072
+    m_Localized: Idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48978308673536
+    m_Localized: "T\xE9rminos de servicios"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49641268752384
+    m_Localized: "Pol\xEDtica de privacidad"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50206740623360
+    m_Localized: Contacta con nosotras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50681321926656
+    m_Localized: logros
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51073652928512
+    m_Localized: Oferta especial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58502507704320
+    m_Localized: Cambiar idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60889121206272
+    m_Localized: "Cr\xE9ditos"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

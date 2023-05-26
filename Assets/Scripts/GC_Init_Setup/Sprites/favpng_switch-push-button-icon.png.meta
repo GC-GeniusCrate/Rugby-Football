@@ -1,0 +1,747 @@
+fileFormatVersion: 2
+guid: 7d5b667e869e76844b647eed73e32c9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -488841634883731231
+    second: favpng_switch-push-button-icon_0
+  - first:
+      213: -828244374344117004
+    second: favpng_switch-push-button-icon_1
+  - first:
+      213: -3875816647024797379
+    second: favpng_switch-push-button-icon_2
+  - first:
+      213: 3549547092452502217
+    second: favpng_switch-push-button-icon_3
+  - first:
+      213: 5085695554060355447
+    second: favpng_switch-push-button-icon_4
+  - first:
+      213: -6696477279892225227
+    second: favpng_switch-push-button-icon_5
+  - first:
+      213: -6171341408540558914
+    second: favpng_switch-push-button-icon_6
+  - first:
+      213: -8260954715731823544
+    second: favpng_switch-push-button-icon_7
+  - first:
+      213: -7056266188051305102
+    second: favpng_switch-push-button-icon_8
+  - first:
+      213: 4463693452162264904
+    second: favpng_switch-push-button-icon_9
+  - first:
+      213: -4288440367234546127
+    second: favpng_switch-push-button-icon_10
+  - first:
+      213: 7572958724733901783
+    second: favpng_switch-push-button-icon_11
+  - first:
+      213: -5511388254021671685
+    second: favpng_switch-push-button-icon_12
+  - first:
+      213: 1447405498598209421
+    second: favpng_switch-push-button-icon_13
+  - first:
+      213: -5645932358762235938
+    second: favpng_switch-push-button-icon_14
+  - first:
+      213: 3722703040709458691
+    second: favpng_switch-push-button-icon_15
+  - first:
+      213: 3042106348653726668
+    second: favpng_switch-push-button-icon_16
+  - first:
+      213: 5913163098400502477
+    second: favpng_switch-push-button-icon_17
+  - first:
+      213: -7954245786459314201
+    second: favpng_switch-push-button-icon_18
+  - first:
+      213: 1199020097095059611
+    second: favpng_switch-push-button-icon_19
+  - first:
+      213: -1736241617164021127
+    second: favpng_switch-push-button-icon_20
+  - first:
+      213: -707042296305746714
+    second: favpng_switch-push-button-icon_21
+  - first:
+      213: -8346777068488405919
+    second: favpng_switch-push-button-icon_22
+  - first:
+      213: 3803084796005739804
+    second: favpng_switch-push-button-icon_23
+  - first:
+      213: -1339447188969623409
+    second: favpng_switch-push-button-icon_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376
+        width: 196
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e085518f194739f0800000000000000
+      internalID: -488841634883731231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 375
+        width: 196
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4d008312c7184f0800000000000000
+      internalID: -828244374344117004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_2
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 381
+        width: 137
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d399a836b45563ac0800000000000000
+      internalID: -3875816647024797379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 197
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cae6273646824130800000000000000
+      internalID: 3549547092452502217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 286
+        width: 196
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7770d874925049640800000000000000
+      internalID: 5085695554060355447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_5
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 305
+        width: 136
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533cc85b4655113a0800000000000000
+      internalID: -6696477279892225227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61
+        width: 51
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9f744afadfa5aa0800000000000000
+      internalID: -6171341408540558914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 145
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844773754713b5d80800000000000000
+      internalID: -8260954715731823544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 61
+        width: 52
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d2a94a94b131e90800000000000000
+      internalID: -7056266188051305102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 147
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f6e5a8b8932fd30800000000000000
+      internalID: 4463693452162264904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_10
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 147
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1360a8605366c74c0800000000000000
+      internalID: -4288440367234546127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 61
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db957e36dd881960800000000000000
+      internalID: 7572958724733901783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_12
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 142
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf427c3659d9383b0800000000000000
+      internalID: -5511388254021671685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_13
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 61
+        width: 53
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87b4edd1a7361410800000000000000
+      internalID: 1447405498598209421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_14
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 147
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7f712ee6e95a1b0800000000000000
+      internalID: -5645932358762235938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_15
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 147
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bf0c911b2b9a330800000000000000
+      internalID: 3722703040709458691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_16
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 157
+        width: 154
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb47783b9bb73a20800000000000000
+      internalID: 3042106348653726668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_17
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 81
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc23c1b3286cf0250800000000000000
+      internalID: 5913163098400502477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_18
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 81
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7e1f1c997dc9190800000000000000
+      internalID: -7954245786459314201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 81
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98c7e5fc66c3a010800000000000000
+      internalID: 1199020097095059611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 75
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97250bcb271a7e7e0800000000000000
+      internalID: -1736241617164021127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_21
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 80
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecf48f07c41036f0800000000000000
+      internalID: -707042296305746714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_22
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 80
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c4f55ba7a4a2c80800000000000000
+      internalID: -8346777068488405919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_23
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 75
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d6c9ce87547c430800000000000000
+      internalID: 3803084796005739804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_switch-push-button-icon_24
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 61
+        width: 154
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80f11ad0e3596de0800000000000000
+      internalID: -1339447188969623409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a99847f5ad6467f44bfcab1e0d5327fe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      favpng_switch-push-button-icon_11: 7572958724733901783
+      favpng_switch-push-button-icon_12: -5511388254021671685
+      favpng_switch-push-button-icon_6: -6171341408540558914
+      favpng_switch-push-button-icon_24: -1339447188969623409
+      favpng_switch-push-button-icon_7: -8260954715731823544
+      favpng_switch-push-button-icon_18: -7954245786459314201
+      favpng_switch-push-button-icon_13: 1447405498598209421
+      favpng_switch-push-button-icon_5: -6696477279892225227
+      favpng_switch-push-button-icon_10: -4288440367234546127
+      favpng_switch-push-button-icon_1: -828244374344117004
+      favpng_switch-push-button-icon_20: -1736241617164021127
+      favpng_switch-push-button-icon_3: 3549547092452502217
+      favpng_switch-push-button-icon_14: -5645932358762235938
+      favpng_switch-push-button-icon_4: 5085695554060355447
+      favpng_switch-push-button-icon_8: -7056266188051305102
+      favpng_switch-push-button-icon_23: 3803084796005739804
+      favpng_switch-push-button-icon_21: -707042296305746714
+      favpng_switch-push-button-icon_22: -8346777068488405919
+      favpng_switch-push-button-icon_0: -488841634883731231
+      favpng_switch-push-button-icon_16: 3042106348653726668
+      favpng_switch-push-button-icon_19: 1199020097095059611
+      favpng_switch-push-button-icon_2: -3875816647024797379
+      favpng_switch-push-button-icon_17: 5913163098400502477
+      favpng_switch-push-button-icon_9: 4463693452162264904
+      favpng_switch-push-button-icon_15: 3722703040709458691
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

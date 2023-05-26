@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 005b9d5c4eb8e5c40b975172ba786205, type: 3}
+  m_Name: Tutorial
+  m_EditorClassIdentifier: 
+  _ThemeName: Tutorial
+  _ThemeCost: 0
+  _ThemeIcon: {fileID: 0}
+  _ThemeType: 0
+  _Places:
+  - _Length: 0
+    _BuildingPrefabs:
+    - {fileID: 23422340194184679, guid: d52dd2b480aff7048a8467ad97f94761, type: 3}
+    - {fileID: 6215967225297396161, guid: bca2b7c42acad33449d29daeaca2a125, type: 3}
+    - {fileID: 5839713122619099220, guid: 29700878f1fe82449b767109ab3171b5, type: 3}
+    - {fileID: 588369171541894245, guid: 2597cfdd1e3af424ea525eb138cec2bf, type: 3}
+    - {fileID: 1116736248593834514, guid: 910482f3fb0000840be404c25fa11730, type: 3}
+  _Collectable: {fileID: 0}
+  _FogColor: {r: 0, g: 0, b: 0, a: 0}
